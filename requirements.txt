@@ -1,0 +1,7 @@
+pythonwhois
+dnspython
+pygeoip
+shodan
+bs4
+lxml
+
