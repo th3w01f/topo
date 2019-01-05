@@ -19,7 +19,7 @@ usrAns = "s"
 def ShodanSsearch(busqueda):
 	os.system('clear')
 	try:
-		ShodanKeyString = "RWfPBBhDPi1ummOsEA5qKYrIpbo6Gv5g" #Key de usuario
+		ShodanKeyString = "" #<- Input your SHODAN APIKEY here|Key de usuario
 		ShodanApi = shodan.Shodan(ShodanKeyString) #lo primeto es inicializar la api con el userKey
 		results = ShodanApi.search(busqueda) #metodo que retorna un resultado proveniente de un diccionario
 		print("#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-")
@@ -43,7 +43,7 @@ def top10shodan(busqueda):
 
 	FACET_TITLES = {'org':'Top 10 Organizations','domain':'Top 10 dominios','port':'Top 10 ports','asn':'Top 10 autonomus system','country':'Top 10 countries'}
 
-	apikey = shodan.Shodan('RWfPBBhDPi1ummOsEA5qKYrIpbo6Gv5g')
+	apikey = shodan.Shodan('')#<-Input Your Shodan APIKEY here
 	result = apikey.count(busqueda,facets=FACETS)
 	print('Total results: %s\n' % result['total'])
 	for facet in result['facets']:
