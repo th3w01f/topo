@@ -11,6 +11,7 @@
 """Powered by SilverNews"""
 """Powered by Xcomic"""
 """Powered by: vBulletin Version 1.1.5"""
+"""Powered by: vBulletin Version 1.1.6"""
 """Select a database to view"" intitle:""filemaker pro"""
 """There are no Administrators Accounts"" inurl:admin.php -mysql_fetch_row"
 """Warning:"" ""Cannot execute a blank command in"""
