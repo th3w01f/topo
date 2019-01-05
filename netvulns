@@ -23,6 +23,7 @@
 "filetype:php inurl:nqt intext:""Network Query Tool"""
 "intext:""Welcome to the Web V.Networks"" intitle:""V.Networks [Top]"" -filetype:htm"
 "intitle:""ADSL Configuration page"""
+"intitle:""DCHP Configuration page"""
 "intitle:""Azureus : Java BitTorrent Client Tracker"""
 "intitle:""BNBT Tracker Info"""
 "intitle:""Belarc Advisor Current Profile"" intext:""Click here for Belarc's PC Management products, for large and small companies."""
