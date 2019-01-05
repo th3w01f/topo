@@ -151,6 +151,7 @@ inurl:nuke filetype:sql
 inurl:ospfd.conf intext:password -sample -test -tutorial -download
 inurl:pap-secrets -cvs
 inurl:passlist.txt
+inurl:passwordlist.txt
 inurl:perform filetype:ini
 inurl:perform.ini filetype:ini
 inurl:root.asp?acs=anon
