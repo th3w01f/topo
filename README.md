@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cb2632b5e4b64b84ad8a4eb490bc3d14)](https://www.codacy.com/app/th3w01f/topo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=th3w01f/topo&amp;utm_campaign=Badge_Grade)
 
 TOPO is a tool that optimizes the information gathering process
 
@@ -22,31 +23,3 @@ Example-
 $ python3 topo.py --geoip 192.30.253.112 github.com
 
 [GeoLocation IP]
-
-##location##
-'United States'
-
-##server info##
-{'area_code': 415,
- 'city': 'San Francisco',
- 'continent': 'NA',
- 'country_code': 'US',
- 'country_code3': 'USA',
- 'country_name': 'United States',
- 'dma_code': 807,
- 'latitude': 37.7697,
- 'longitude': -122.39330000000001,
- 'metro_code': 'San Francisco, CA',
- 'postal_code': '94107',
- 'region_code': 'CA',
- 'time_zone': 'America/Los_Angeles'}
- 
-##time zone##
-'America/Los_Angeles'
-
-##ISP lookup##
-None
-
-##ASN(Autonomous System Number) Lookup##
-'AS36459 GitHub, Inc.'
-###
