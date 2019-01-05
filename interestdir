@@ -65,6 +65,7 @@ intitle:upload inurl:upload intext:upload -forum -shop -support -w3c
 inurl:/pls/sample/admin_/help/
 inurl:/tmp
 inurl:/xampp
+inurl:/wampp
 inurl:backup intitle:index.of inurl:admin
 inurl:explorer.cfm inurl:(dirpath|This_Directory)
 inurl:j2ee/examples/jsp
