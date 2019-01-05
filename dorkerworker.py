@@ -7,7 +7,7 @@ usrAns = 's'
 
 def presentation():
 	print("!#[WorkerDorker]#!")
-	print("Generador de dorks para flojos")
+	print("Machine Of Dork 4 Lazy Humans")
 
 def opts():
 	print("""
@@ -25,7 +25,7 @@ def opts():
 	b1-[exploit-db]
 	""")
 	cont = 0
-	opc = input('opcion > ')
+	opc = input('option > ')
 	if(opc == '1'):
 		f = open("sqlinydork")
 		for line in f:
