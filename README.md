@@ -1,35 +1,44 @@
-# topo
-<br>
-Toma Obtiene Paquetes de Salida | Take Obtain Packets Output<br>
-<br>
-usage: topo.py [-h] [--options] [--change] [--dnsinf] [--whois] [--geoip]<br>
-               [--headinf] [--robothi] [--dorkerworker] [--sourceview]<br>
+
+TOPO is a tool that optimizes the information gathering process
+
+Steps for use
+
+When you have a copy of the project you must have installed the version 3 of python next to the pip library
+
+go to the project folder and install the requirements so that certain functions can be used
+
+$ pip3 install -r requirements.txt
+
+Go to the website of Shodan, register and get a KEY API then enter it in the variable that is on line 22 and 46 of the script rsrchtoolv001.py
+
+$ python3 topo.py --help
+
+usage: topo.py [-h] [--options] [--change] [--dnsinf] [--whois] [--geoip]
+               [--headinf] [--robothi] [--dorkerworker] [--sourceview]
                [--shodansearch] [--shtop] [--ntoolbox]
-               ipc urlc<br>
-<br>
-a tool box for digging and gathering information | herramienta para la<br>
-recoleccion de informacion<br>
-<br>
-positional arguments:<br>
-  ipc             almacena la ip<br>
-  urlc            almacena la url<br>
-<br>
-optional arguments:<br>
-  -h, --help      show this help message and exit<br>
-  --options       muestra las funciones del programa<br>
-  --change        cambia la ip y url<br>
-  --dnsinf        muestra informacion sobre los servidores dns, direcciones
-                  Ipv4,v6, mail servers.<br>
-  --whois         consulta quien es¿¡? propietario del dominio.<br>
-  --geoip         consulta la ubicacion del servidor(Base de datos:GeoIP2)<br>
-  --headinf       Recibe codigos de respuesta del protocolo http/https.<br>
-  --robothi       Observa que direcciones estan permitidas en el archivo<br>
-                  robots.txt.<br>
-  --dorkerworker  Obtiene interesantes dorks con tan solo unos comandos.<br>
-  --sourceview    mira el codigo fuente o.o.<br>
-  --shodansearch  Busqueda en los servidores de Shodan<br> ~ .
-  --shtop         consulta tu top 10 con Shodan.<br>
-  --ntoolbox      libreria de scripts para el analisis de puertos y redes con
-                  nMap.<br>
-<br>
-$$[(T)ake (O)btain (P)ickUp (O)utputs]$$. . its a lazy tool... . . .<br>
+               ipc urlc
+
+| a tool box for digging and gathering information |
+
+positional arguments:
+  ipc             store the ip
+  urlc            store the url
+
+optional arguments:
+  -h, --help      show this help message and exit
+  --options       shows the functions of the program
+  --change        change the ip & url
+  --dnsinf        It shows information about the servers dns, Ipv4 addresses,
+                  v6, MX
+  --whois         consult who is it?
+  --geoip         check the server location (Database: GeoIP2)
+  --headinf       Receive response codes from the http / https protocol.
+  --robothi       take a look at the robots.txt file
+  --dorkerworker  Get interesting dorks with just a few commands
+  --sourceview    look at the source code o.o.
+  --shodansearch  Search with Shodan
+  --shtop         consult your top 10 with Shodan.
+  --ntoolbox      commands for the analysis of ports and networks with nMap
+
+$$[(T)ake (O)btain (P)ickUp (O)utputs]$$. . its a lazy tool... . . .
+
