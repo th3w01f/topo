@@ -19,7 +19,7 @@ import argparse
 parser = argparse.ArgumentParser(
 	prog='topo.py',
 	description='| a tool box for digging and gathering information |',
-	epilog='$$[(T)ake (O)btain (P)ickUp (O)utputs]$$. . its a lazy tool... . . .'
+	epilog='$$[(T)ake (O)btain (P)ackets (O)utputs]$$. . its a lazy tool... . . .'
 	)
 parser.add_argument('ipc', action='store',help='store the ip')
 parser.add_argument('urlc', action='store',help='store the url')
