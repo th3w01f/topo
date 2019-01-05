@@ -37,6 +37,7 @@
 """detected an internal error [IBM][CLI Driver][DB2/6000]"""
 """error found handling the request"" cocoon filetype:xml"
 """mySQL error with query"""
+"""mySQL error with queries"""
 """plugins/wp-db-backup/wp-db-backup.php"""
 """supplied argument is not a valid MySQL result resource"""
 "An unexpected token ""END-OF-STATEMENT"" was found"
