@@ -32,7 +32,7 @@ def escaner(ip):
 		if(usrAns == '1'):
 			os.system('sudo netstat -tuna')
 			print("#[List of active UDP/TCP Ports]#")
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 'q'):
 				os.system('clear')
 				run = False
@@ -41,7 +41,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '2'):
 			os.system('sudo nmap -A -T3 -sS -Pn -O '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -50,7 +50,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '3'):
 			os.system('sudo nmap  -sU '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -59,7 +59,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '4'):
 			os.system('sudo nmap  -sN '+ip)
-			usrAns = input('(q) o (c)ontinue ? > ')
+			usrAns = input('(q) or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -77,7 +77,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '6'):
 			os.system('sudo nmap -sF '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -86,7 +86,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '7'):
 			os.system('sudo nmap -sA '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -95,7 +95,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '8'):
 			os.system('sudo nmap -sW '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -104,7 +104,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '9'):
 			os.system('sudo nmap -sW '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -114,7 +114,7 @@ def escaner(ip):
 		if(usrAns == '10'):
 			flags = input('ingresa las flags > ')
 			os.system('sudo nmap --scanflags '+flags+' '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -123,7 +123,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '11'):
 			os.system('sudo nmap  -sO '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -136,7 +136,7 @@ def escaner(ip):
 			psw = input('psw > ')
 			port = input('port > ')
 			os.system('sudo nmap -Pn -b '+user+':'+psw+'@'+ip+':'+port)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -145,7 +145,7 @@ def escaner(ip):
 				run = True
 		if(usrAns == '13'):
 			os.system('sudo nmap -sI -Pn '+ip)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -153,9 +153,9 @@ def escaner(ip):
 				os.system('clear')
 				run = True
 		if(usrAns == '14'):
-			port = input('Nro del Puerto > ')
+			port = input('Port Number > ')
 			os.system('sudo netstat -putan | grep '+port)
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
@@ -165,7 +165,7 @@ def escaner(ip):
 		if(usrAns == '15'):
 			dgateway = input('input the gateway > ')
 			os.system('sudo nmap -A -T3 -sI '+dgateway+'/24')
-			usrAns = input('(q)uit o (c)ontinue ? > ')
+			usrAns = input('(q)uit or (c)ontinue ? > ')
 			if(usrAns == 's'):
 				os.system('clear')
 				run = False
