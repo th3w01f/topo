@@ -22,8 +22,10 @@ Example-
 $ python3 topo.py --geoip 192.30.253.112 github.com
 
 [GeoLocation IP]
+
 ##location##
 'United States'
+
 ##server info##
 {'area_code': 415,
  'city': 'San Francisco',
@@ -38,10 +40,13 @@ $ python3 topo.py --geoip 192.30.253.112 github.com
  'postal_code': '94107',
  'region_code': 'CA',
  'time_zone': 'America/Los_Angeles'}
+ 
 ##time zone##
 'America/Los_Angeles'
+
 ##ISP lookup##
 None
+
 ##ASN(Autonomous System Number) Lookup##
 'AS36459 GitHub, Inc.'
 ###
